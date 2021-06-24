@@ -70,12 +70,12 @@
 
 #home::before{
     content: "";
-    background: url('../pexels1.jpeg') no-repeat center center/cover;
+    background: url('../pexels1.png') no-repeat center center/cover;
     position: absolute;
     height: 111%;
     width: 100%;
     z-index: -1;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 #home h1{
     text-align: center;

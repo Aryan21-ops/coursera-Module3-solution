@@ -1,12 +1,10 @@
-/* navigation */
 #navbar{
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 #home{
     height: 463px;
 }
-
 #home::before{
     height: 197%;
     width: 103%;
@@ -22,7 +20,7 @@
     z-index: -1;
 }
 
-#services {
+#services{
     grid-template-columns: 1fr;
 }
 .services p{
@@ -36,5 +34,6 @@
     z-index: -1;
 }
 .info{
-    grid-template-columns: 1f;
+    grid-template-columns: 1fr;
 }
+
