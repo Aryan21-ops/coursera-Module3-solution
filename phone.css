@@ -1,0 +1,40 @@
+/* navigation */
+#navbar{
+    flex-direction: column; 
+}
+
+#home{
+    height: 463px;
+}
+
+#home::before{
+    height: 197%;
+    width: 103%;
+}
+#home p{
+    font-size: 26px;
+}
+.services-container::before{
+    content: "";
+    background: rgb(34, 2, 2);
+    height: 958%;
+    width: 105%;
+    z-index: -1;
+}
+
+#services {
+    grid-template-columns: 1fr;
+}
+.services p{
+    font-size: 23px;
+}
+.info-section::before{
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.info{
+    grid-template-columns: 1f;
+}
