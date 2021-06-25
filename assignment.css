@@ -70,7 +70,7 @@
 
 #home::before{
     content: "";
-    background: url('src:"https://unsplash.com/photos/yn3tA00iHBg"') no-repeat center center/cover;
+    background: url('../pexels1.png') no-repeat center center/cover;
     position: absolute;
     height: 111%;
     width: 100%;
